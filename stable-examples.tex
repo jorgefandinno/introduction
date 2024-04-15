@@ -1,5 +1,5 @@
 % ----------------------------------------------------------------------
-\begin{frame}{Example one}
+\begin{frame}<handout:14,15>{Example one}
 % ------------------------------
 \newcommand{\PIip}{%
   \begin{array}[t]{lll}
@@ -30,17 +30,17 @@
     \begin{array}{c|cl|ccr}
       X                          &\ &\uncover< 3-13>{\reduct{P}{X}}&\ &\uncover< 3-13>{\Cn{\reduct{P}{X}}}&                                  \\\hline
       \{\phantom{p         ,q}\} &  &\uncover< 4-13>{\PIop}        &  &\uncover< 5-13>{\{q\}}             &\uncover< 6->              {\KO}  \\\hline
-      \{         p\phantom{,q}\} &  &\uncover< 7-13>{\PIip}        &  &\uncover< 8-13>{\emptyset}         &\uncover< 9->{\alt<15>{\OK}{\KO}} \\\hline
+      \{         p\phantom{,q}\} &  &\uncover< 7-13>{\PIip}        &  &\uncover< 8-13>{\emptyset}         &\uncover< 9->{\alt<all:15>{\OK}{\KO}} \\\hline
       \{\phantom{p,}        q \} &  &\uncover<10-13>{\PIop}        &  &\uncover<10-13>{\{q\}}             &\uncover<11->              {\OK}  \\\hline
-      \{         p         ,q \} &  &\uncover<12-13>{\PIip}        &  &\uncover<12-13>{\emptyset}         &\uncover<13->{\alt<15>{\OK}{\KO}}
+      \{         p         ,q \} &  &\uncover<12-13>{\PIip}        &  &\uncover<12-13>{\emptyset}         &\uncover<13->{\alt<all:15>{\OK}{\KO}}
     \end{array}
   \]
   \medskip
-\item<6->[] \OK\quad\only<-14>{ stable} model\only<15->{\phantom{ stable}} \qquad \KO\quad no\only<-14>{ stable} model
+\item<6->[] \OK\quad\only<all:-14>{ stable} model\only<all:15->{\phantom{ stable}} \qquad \KO\quad no\only<all:-14>{ stable} model
 \end{itemize}
 \end{frame}
 % ----------------------------------------------------------------------
-\begin{frame}{Example two}
+\begin{frame}<handout:11,12>{Example two}
 % ------------------------------
 \newcommand{\PIipiq}{%
   \begin{array}[t]{lll}
@@ -85,15 +85,15 @@
       \{\phantom{p         ,q}\} &  &\uncover<3-10>{\PIopoq}        &  &\uncover<3-10>{\{p,q\}}           &\uncover< 4->              {\KO}\\\hline
       \{         p\phantom{,q}\} &  &\uncover<5-10>{\PIipoq}        &  &\uncover<5-10>{\{p\}}             &\uncover< 6->              {\OK}\\\hline
       \{\phantom{p,}        q \} &  &\uncover<7-10>{\PIopiq}        &  &\uncover<7-10>{\{q\}}             &\uncover< 8->              {\OK}\\\hline
-      \{         p         ,q \} &  &\uncover<9-10>{\PIipiq}        &  &\uncover<9-10>{\emptyset}         &\uncover<10->{\alt<12>{\OK}{\KO}}
+      \{         p         ,q \} &  &\uncover<9-10>{\PIipiq}        &  &\uncover<9-10>{\emptyset}         &\uncover<10->{\alt<all:12>{\OK}{\KO}}
     \end{array}
   \]
   \medskip
-\item<2->[] \OK\quad\only<-11>{ stable} model\only<12->{\phantom{ stable}} \qquad \KO\quad no\only<-11>{ stable} model
+\item<2->[] \OK\quad\only<all:-11>{ stable} model\only<all:12->{\phantom{ stable}} \qquad \KO\quad no\only<all:-11>{ stable} model
 \end{itemize}
 \end{frame}
 % ----------------------------------------------------------------------
-\begin{frame}{Example three}
+\begin{frame}<handout:8,9>{Example three}
 % ------------------------------
 \newcommand{\PIip}{%
   \begin{array}[t]{l}
@@ -118,11 +118,11 @@
     \begin{array}{l|cl|ccr}
       X               &\ &\uncover<2-7>{\reduct{P}{X}}&\ &\uncover<2-7>{\Cn{\reduct{P}{X}}} &                                \\\hline
       \{\phantom{p}\} &  &\uncover<3-7>{\PIop}        &  &\uncover<4-7>{\{p\}}              &\uncover<5->              {\KO} \\\hline
-      \{         p \} &  &\uncover<5-7>{\PIip}        &  &\uncover<6-7>{\emptyset}          &\uncover<7->{\alt<9>{\OK}{\KO}}
+      \{         p \} &  &\uncover<5-7>{\PIip}        &  &\uncover<6-7>{\emptyset}          &\uncover<7->{\alt<all:9>{\OK}{\KO}}
     \end{array}
   \]
   \bigskip
-\item<2->[] \OK\quad\only<-8>{ stable} model\only<9->{\phantom{ stable}} \qquad \KO\quad no\only<-8>{ stable} model
+\item<2->[] \OK\quad\only<all:-8>{ stable} model\only<all:9->{\phantom{ stable}} \qquad \KO\quad no\only<all:-8>{ stable} model
 \end{itemize}
 \end{frame}
 % ----------------------------------------------------------------------
